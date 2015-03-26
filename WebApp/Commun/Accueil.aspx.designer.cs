@@ -13,12 +13,12 @@ namespace WebApp.Commun {
     public partial class Accueil {
         
         /// <summary>
-        /// imgPersonnes control.
+        /// imgBackground control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgPersonnes;
+        protected global::System.Web.UI.WebControls.Image imgBackground;
     }
 }

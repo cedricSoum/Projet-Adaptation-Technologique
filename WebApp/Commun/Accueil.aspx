@@ -7,7 +7,7 @@
                     Accueil
                 </h2>
                 <p>
-                    <asp:Image ID="imgPersonnes" CssClass="imgPersonnes" runat="server" ImageUrl="personnes.png" Height="552px" Width="767px" />
+                    <asp:Image ID="imgBackground" CssClass="imgBackground" runat="server" ImageUrl="background.png" Height="552px" Width="767px" />
                 </p>
             </div>
 </asp:Content>
