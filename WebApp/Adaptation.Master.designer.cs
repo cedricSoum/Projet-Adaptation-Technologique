@@ -10,7 +10,7 @@
 namespace WebApp {
     
     
-    public partial class Adaptation {
+    public partial class Outil {
         
         /// <summary>
         /// contenuEntete control.
