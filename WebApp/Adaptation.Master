@@ -41,10 +41,8 @@
                     <asp:Menu ID="MenuDeNavigation" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                         <Items>
                             <asp:MenuItem NavigateUrl="~/Commun/Accueil.aspx" Text="Accueil"/>
-                            <asp:MenuItem NavigateUrl="~/Administrateur.aspx" Text="Administrateur"/>
-                            <asp:MenuItem NavigateUrl="~/Cours.aspx" Text="Cours"/>
+                            <asp:MenuItem NavigateUrl="~/Commun/Cours.aspx" Text="Cours"/>
                             <asp:MenuItem NavigateUrl="~/Commun/Etudiant.aspx" Text="Etudiant"/>
-                            <asp:MenuItem NavigateUrl="~/Commun/Professeur.aspx" Text="Professeur"/>
                         </Items>
                     </asp:Menu>
                 </div>
