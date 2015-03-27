@@ -62,7 +62,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Cours.aspx" />
     <Content Include="Styles\Adaptation.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -76,7 +75,6 @@
     <Content Include="Commun\Professeur.aspx" />
     <Content Include="Commun\Etudiant.aspx" />
     <Content Include="Commun\Accueil.aspx" />
-    <Content Include="Administrateur.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adaptation.Master.cs">
@@ -85,13 +83,6 @@
     </Compile>
     <Compile Include="Adaptation.Master.designer.cs">
       <DependentUpon>Adaptation.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Cours.aspx.cs">
-      <DependentUpon>Cours.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cours.aspx.designer.cs">
-      <DependentUpon>Cours.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Compte\Enregistrer.aspx.cs">
@@ -128,13 +119,6 @@
     </Compile>
     <Compile Include="Commun\Accueil.aspx.designer.cs">
       <DependentUpon>Accueil.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Administrateur.aspx.cs">
-      <DependentUpon>Administrateur.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Administrateur.aspx.designer.cs">
-      <DependentUpon>Administrateur.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -7,9 +7,6 @@
 </asp:Content>
 <asp:Content ID="ContenuPrincipal" ContentPlaceHolderID="contenuPrincipal" runat="server">
         <div id="Etudiant" style="height: 400px;">
-            <h2>
-                Etudiant
-            </h2>
             <asp:Image ID="imgEtudiant" CssClass="imgEtudiant" runat="server" ImageUrl="etudiant.png" Height="370px" />
             </div>
 </asp:Content>
