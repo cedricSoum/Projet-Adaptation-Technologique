@@ -2,12 +2,5 @@
 <asp:Content ID="ContenuEntete" ContentPlaceHolderID="contenuEntete" runat="server">
 </asp:Content>
 <asp:Content ID="ContenuPrincipal" ContentPlaceHolderID="contenuPrincipal" runat="server">
-            <div id="Accueil" style="height: 600px;">
-                <h2>
-                    Accueil
-                </h2>
-                <p>
-                    <asp:Image ID="imgBackground" CssClass="imgBackground" runat="server" ImageUrl="background.png" Height="552px" Width="767px" />
-                </p>
-            </div>
+
 </asp:Content>
